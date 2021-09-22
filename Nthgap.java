@@ -1,6 +1,9 @@
 /* package whatever; // don't place package name! */
 
 import java.util.*;
+
+import javax.swing.plaf.synth.SynthMenuUI;
+
 import java.lang.*;
 import java.io.*;
 
@@ -17,20 +20,16 @@ class Business
      	
 		int []arr = {4,5,6,9,0,2,11,17,5,5,4};
 		
-		int i= 0;
+		//int i= 0;
 		
-		while(i< arr.length)
-		{
-		    int j = (n+1)*i;
-		    if(j<=arr.length-1)
-		    
-			System.out.print(" " +arr[j]);
+        //while(i< arr.length)
+        for(int i=0; i< arr.length; i+=n)
+		{		    
+			System.out.print(" " +arr[i]);
 		  
-			i++;
-			
-		
+			//i++;	
 		}
-		
+		System.out.print(s);
 	
 		// your code goes here
 	}

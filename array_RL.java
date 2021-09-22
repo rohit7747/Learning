@@ -12,16 +12,11 @@ class Business
 		int []arr = {4,5,6,9,0,2,11,17,5,5,4};
 		
 		int i= arr.length-1;
-		while(i< arr.length)
+		while(i>=0)
 		{
-		  if(i>=0)
-		  {
 		  
 			System.out.print(" " +arr[i]);
-		  }
 			i--;
-			
-		
 		}
 		
 	
